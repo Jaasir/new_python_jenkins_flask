@@ -56,7 +56,7 @@ class ProductSchema(ModelSchema):
     price = fields.Number(required=True)
     starRating = fields.Number(required=True)
     imageUrl = fields.String(required=True)
-@app.route('/products',methods=['post'])
+@app.route('/ibm',methods=['post'])
 def createProduct():
     data = request.get_json()
     product_schema= ProductSchema()
