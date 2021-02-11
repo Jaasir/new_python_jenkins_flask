@@ -6,6 +6,7 @@ Created on Wed Jan 27 10:50:56 2021
 app=express()
 app.get('',())
 app.post()
+app.put('',())
 """
 
 import json
